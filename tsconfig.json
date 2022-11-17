@@ -5,6 +5,16 @@
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 
     /* Completeness */
-    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
-  }
+    "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
+    "baseUrl": "./src",
+    "paths": {
+      "@/assets/*": ["assets/*"],
+      "@/components/*": ["components/*"],
+      "@/config/*": ["config/*"],
+      "@/modles/*": ["modles/*"],
+      "@/navigator/*": ["navigator/*"],
+      "@/pages/*": ["pages/*"],
+      "@/utils/*": ["utils/*"],
+    },
+  },
 }
